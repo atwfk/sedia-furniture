@@ -1,0 +1,165 @@
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 21px;
+	font-size: 13px;
+    color: #6a737b;
+    overflow-x: hidden !important;
+}
+body section{padding: 60px 0;}
+h3{display: inline;}
+.navbar{background-color:rgba(16, 22, 54, 0.2);}
+.navbar .collapsed,
+.navbar-toggle{margin-top: -10px;}
+.navbar .collapsed .icon-bar,
+.navbar-toggle .icon-bar{font-size: 20px;color: white;}
+.navbar-brand img{width: 90%;}
+.navbar-nav li a{
+    padding: 10px 15px;    
+    color: #fff;
+    line-height: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.navbar-nav li a:focus,
+.navbar-nav li a:hover{border-top:1px solid #32B0EE;background:none;margin-top: 4px;}
+.carousel-inner>.item>img{width: 100%;}
+.carousel-caption{text-shadow: 0 2px 2px rgba(0,0,0,.6);}
+.carousel-caption h2{font-size: 62px;font-weight: 300;}
+.carousel-caption h3{font-size: 48px;font-weight: 300;margin: 6px 0 20px;}
+.carousel-caption p {color: #fff;font-size: 18px;font-weight: 300;}
+.carousel-caption span{color:#0feb9e;}
+.carousel-indicators li,
+.carousel-indicators .active{width: 8px;height: 8px;margin: 1px;}
+.social-links {margin-top: 5%;}
+.social-links li a{color: rgba(255, 255, 255, 0.3);margin: 0 6px;transition: 0.8s ease;}
+.social-links li a:hover{opacity: 1;color: white;}
+.our-services{background-color:#f4f7f9;}
+.our-services h2,
+.our-gallery h2,
+.about-us h2,
+.contact-us h2{color: #8B0110; font-size: 28px;font-weight: 700;margin-bottom: 40px;}
+.devider i,
+.devider span{color:#cccccc;margin:0 5px 40px 5px;}
+.our-services .features i{color:#8b0110;border: 1px solid #8b0110;padding: 5px;border-radius: 50%;}
+.our-services .features h3 {color: #062033;font-size: 20px;font-weight: 600;}
+.our-gallery p,
+.about-us p,
+.contact-us p{font-weight: 400;line-height: 24px;font-size: 18px;color: #5b646e;margin-bottom: 40px;}
+.our-gallery .filter{margin-bottom: 40px;}
+.our-gallery .filter li{display: inline;cursor: pointer;}
+.our-gallery .filter li a{
+    color: #062033;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 17px;
+    border-radius: 6px;
+    transition: all 0.6s ease;
+} 
+.our-gallery .filter li a:hover,
+.our-gallery .filter li a:focus{
+    background-color: #8b0110;
+    border-radius: 6px;
+    color: #fff;
+    padding: 5px 17px;
+    text-decoration: none;
+}
+.our-gallery .image-filter img{height: auto;width: 100%;}
+.stat{
+    color: white;
+    background: url("../image/sedia-furniture/city.jpg") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    padding: 0;
+}
+.stat .overlay{background-color: rgba(6,32,51,.8);padding: 70px 0;}
+.stat h2{font-size: 28px;font-weight: 800;}
+.stat .counters i{
+    border: 1px solid #737C85;
+    border-radius: 50%;
+    height: 120px;
+    padding: 40px;
+    width: 120px;
+    margin-bottom: 40px;
+}
+.stat strong{display: block;font-size: 60px;font-weight: 600;line-height: 60px;margin-bottom: 20px;}
+.stat p{font-size: 18px;line-height: 24px;margin-top: 15px;}
+.contact-us .contact-address h3 {color: #062033;font-size: 22px;line-height: 32px;}
+.contact-us .contact-address p{font-size: 13px;line-height: 26px;margin-top: 25px;}
+.contact-us .contact-form h3 {color: #062033;font-size: 24px;font-weight: 700;line-height: 32px;margin-bottom: 25px;}
+.contact-us .contact-form input{margin-top: 25px;margin-bottom: 10px;}
+.contact-us .contact-form input,
+.contact-us .contact-form textarea{
+    border-style: none none solid;
+    border-radius: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    box-shadow: none;
+}
+.contact-us .contact-form .submit{
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+    width: 150px;
+}
+footer{background-color: #8B0110;color: #fff;padding: 70px 0;}
+footer h6 {font-size: 14px;font-weight: 700;line-height: 24px;margin-bottom: 30px;}
+footer .subscribe #subscribe{
+    background-color: rgba(0,0,0,.0);
+    border: 2px solid #fff;
+    border-radius: 2px;
+    height: 40px;
+    text-indent: 10px;
+    width: 100%;
+}
+footer .subscribe #subs{
+    background-color: rgba(0,0,0,.0);
+    border: 0 none;
+    font-size: 24px;
+    position: absolute;
+    right: 15px;
+    top: 72px;
+}
+footer a{line-height: 32px;color: white;transition: all 0.3s ease-in;}
+footer a:hover,
+footer a:focus{color: #062033;text-decoration: none;}
+.copyright {color: #fff;margin-top: 100px;}
+.preloader{background-color: #fff;height: 100%;position: fixed;width: 100%;z-index: 1100;}
+.preloader img {position: absolute;left: 47%;top: 48%;}
+#scroll-top{
+	width: 50px;
+	height: 40px;
+	color: #ddd;
+	position: fixed;
+	right: 15px;
+	bottom: 10px;
+	z-index: 999;
+	text-align: center;
+	display: none;
+	cursor: pointer;
+	border-radius: 50%;
+	opacity: 0.6;
+	transition: 0.8s;
+}
+#scroll-top:hover{opacity: 1;color: #0feb9e;}
+@media (max-width: 767px){
+    .our-services .features i,
+    .our-services .features h3{text-align: center;margin: 20px;display: block;border: none;}
+    .carousel-caption h2{font-size: 24px;}
+    .carousel-caption h3{font-size: 16px;}
+    .carousel-caption p {font-size: 10px;}
+    .our-gallery .filter li a{font-size: 10px;margin: 0;padding: 5px 7px;}
+    .our-gallery .filter li a:hover{padding: 5px 7px;}
+    .contact-us .contact-address{text-align: center;}
+    footer{text-align: center;}
+}
+@media(min-width: 768px)and(max-width: 991px){
+    .our-services .features{margin-bottom: 20px;}
+
+}
+@media (min-width: 1200px){
+    .carousel-caption{transform: translateY(-200px);}
+}
